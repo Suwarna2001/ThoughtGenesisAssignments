@@ -8,7 +8,7 @@ class CalculatorTestCases extends AnyFunSuite {
   //All possible addition test cases
 
   test("BasicAdditionTest") {
-    assert(testCases.sum(2,3)=== 5)
+    assert(testCases.sum(1,4)=== 5)
   }
 
   test("AdditionOfZeroes") {
@@ -16,7 +16,7 @@ class CalculatorTestCases extends AnyFunSuite {
   }
 
   test("BothNegativeNumberAddition") {
-    assert(testCases.sum(-1, -3) === -4)
+    assert(testCases.sum(-2, -2) === -4)
   }
 
   test("OneNumberNegativeAdd"){
